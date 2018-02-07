@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.h
+!*.cc
+!*.tex
+!Makefile
+!*.cmake
+!CMakeLists.txt
+!input
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+!*/*/
+!*/*/*/
+!*/*/*/*/
